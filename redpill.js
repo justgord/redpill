@@ -22,8 +22,8 @@ function redpill(sq)
     rp.push = function(ob)
     {
         var sob = JSON.stringify(ob);
-        rp.mqs.publish(rp.sq, rp.sq);       // any message will tell listeneres ther is data ready
         rp.r.rpush(rp.sq, sob); 
+        rp.mqs.publish(rp.sq, rp.sq);       // any message will tell listeneres ther is data ready
 
         // w.info("redpill.push : "+sob)
     }
