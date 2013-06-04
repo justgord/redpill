@@ -31,7 +31,7 @@ todo
 ----
 
 Make redpill an npm module
-tests
+test - fix timing wierdness
 perf tests / timing / stats
 
 deps
